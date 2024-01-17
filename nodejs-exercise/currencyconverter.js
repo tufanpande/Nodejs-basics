@@ -1,10 +1,9 @@
 const CC = require('currency-converter-lt')
-let currencyConverter = new CC({from:"USD", to:"NPR", amount:100, isDecimalComma:true})
+let currencyConverter = new CC()
 
-currencyConverter.convert(100).then((response) => {
-    console.log(response) //or do something else
-}).catch((error) => {
-    console.error('Error converting currency:', error.message);
-  });
+currencyConverter.from("USD").to("NPR").amount(1).convert()
+.then((response) => {
+  console.log(response) 
+})
 
   
