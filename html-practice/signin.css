@@ -1,0 +1,23 @@
+*{
+    background-color:gainsboro ;
+}
+#email{
+    background-color: white;
+    border: white;
+    margin: 5px;
+
+}
+
+#pass{
+    background-color: white;
+    border: white;
+    margin: 5px;
+}
+#btn{
+    width: 200px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+
